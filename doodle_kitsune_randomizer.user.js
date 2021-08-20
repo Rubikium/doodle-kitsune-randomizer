@@ -11,44 +11,6 @@
 // @grant        unsafeWindow
 // ==/UserScript==
 
-/*
-  Install guide:
-
-  - Install Tampermonkey (other userscript managers might also work), and
-    install this script to it. A way to do so is to navigate to Tampermonkey's
-    Dashboard, click the Utilities menu and import the file there.
-
-
-  Future development directions:
-
-  -- Shuffle Warp Points --
-  Shuffle each menu warp destination to a random overworld location
-
-  -- Entrance Shuffle Modes --
-  (Only the Overworld mode is available at the moment)
-
-  Mode      | Overworld       | Connector             | Interior
-  ----------------------------------------------------------------------------
-  Simple    | Same area only  | Among themselves only | NOT shuffled
-  Overworld | All overworld entrances shuffled freely | NOT shuffled
-  Full      | All overworld entrances shuffled freely | Among themselves only
-  Crossed   |                All connections shuffled freely
-  Insanity  |  All shuffled; entrances / exits are decoupled from each other
-
-  -- Shuffle Minigame Locations --
-  Shuffle the 14 minigame locations among themselves
-  (Affects connection logic since some connections require 6 scrolls)
-
-
-  Known Issues / Quirks:
-
-  - When going in the west convenience store entrance to a room with
-    multiple doors, and going back out the same door, the player will appear
-    in front of the east convenience store instead. This is intentional
-    so that a connector linked to the store can bring the player
-    from one end to another. This quirk also occurs in the case of
-    the abandoned houses in table tennis area (exit at northwest house).
-*/
 
 // Math.imul polyfill from MDN Web Docs
 if (!Math.imul)
