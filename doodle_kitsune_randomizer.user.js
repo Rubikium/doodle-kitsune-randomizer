@@ -7,6 +7,7 @@
 // @include      http*://*/*/kitsune/rc4/kitsune20.html
 // @include      http*://*/*/kitsune/rc5/kitsune20.html
 // @include      http*://*/*/kitsune/rc6/kitsune20.html
+// @include      http*://*/*/kitsune/rc7/kitsune20.html
 // @include      *://127.0.0.1*/logos/run.html
 // @grant        none
 // ==/UserScript==
