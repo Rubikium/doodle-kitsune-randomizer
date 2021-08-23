@@ -8,7 +8,7 @@
 // @include      http*://*/*/kitsune/rc5/kitsune20.html
 // @include      http*://*/*/kitsune/rc6/kitsune20.html
 // @include      *://127.0.0.1*/logos/run.html
-// @grant        unsafeWindow
+// @grant        none
 // ==/UserScript==
 
 
@@ -392,12 +392,12 @@ function isSeedCompletable() {
 
 function getGameWindow() {
   // Global object, have access to global variables
-  let W = unsafeWindow ? unsafeWindow : window;
+  let W = window;
   if (W.length) {
-    for (let i = 0; i < unsafeWindow.length; ++i) {
+    for (let i = 0; i < W.length; ++i) {
       try {
-        console.debug(unsafeWindow[i].location); // May throw DOMException
-        W = unsafeWindow[i];
+        console.debug(W[i].location); // May throw DOMException
+        W = W[i];
         break;
       } catch (e) {
         // Sub-window don't have same origin, ignore
