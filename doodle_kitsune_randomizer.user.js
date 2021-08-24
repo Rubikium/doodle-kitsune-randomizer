@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DoodleKitsune Randomizer
-// @version      0.1.0
+// @version      0.1.1
 // @description  Entrance Randomizer for Doodle Champion Island Games
 // @author       Rubikium
 // @updateURL    https://github.com/Rubikium/doodle-kitsune-randomizer/raw/main/doodle_kitsune_randomizer.user.js
