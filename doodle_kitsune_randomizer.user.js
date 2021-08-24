@@ -3,6 +3,8 @@
 // @version      0.1.0
 // @description  Entrance Randomizer for Doodle Champion Island Games
 // @author       Rubikium
+// @updateURL    https://github.com/Rubikium/doodle-kitsune-randomizer/raw/main/doodle_kitsune_randomizer.user.js
+// @downloadURL  https://github.com/Rubikium/doodle-kitsune-randomizer/raw/main/doodle_kitsune_randomizer.user.js
 // @include      https://www.google.com/doodles/doodle-champion-island-games*
 // @include      http*://*/*/kitsune/rc4/kitsune20.html
 // @include      http*://*/*/kitsune/rc5/kitsune20.html

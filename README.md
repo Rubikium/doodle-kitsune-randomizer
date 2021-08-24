@@ -11,9 +11,9 @@ the base game is also available.
 ## Install guide
 
 Install Tampermonkey (other userscript managers might also work), and
-install this script to it. A way to do so is to navigate to Tampermonkey's
-Dashboard, click the Utilities menu and import the file there.
+then [click here][3] to install this script.
 
+[3]: https://github.com/Rubikium/doodle-kitsune-randomizer/raw/main/doodle_kitsune_randomizer.user.js
 
 ## Additions to the base game
 
