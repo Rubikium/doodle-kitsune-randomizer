@@ -5,7 +5,7 @@ a Doodle game from Google. A [full screen version][2] of
 the base game is also available.
 
 [1]: https://www.google.com/doodles/doodle-champion-island-games-begin
-[2]: https://www.google.com/logos/2020/kitsune/rc6/kitsune20.html
+[2]: https://www.google.com/logos/2020/kitsune/rc7/kitsune20.html
 
 
 ## Install guide
